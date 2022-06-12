@@ -1,0 +1,31 @@
+{
+  "name": "btix",
+  "version": "1.0.0",
+  "description": "obotix CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webjestic/btix.git"
+  },
+  "keywords": [
+    "obotix",
+    "cli"
+  ],
+  "author": "Michael N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webjestic/btix/issues"
+  },
+  "homepage": "https://github.com/webjestic/btix#readme",
+  "bin": {
+    "btix": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "yargs": "^17.5.1"
+  }
+}
