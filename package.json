@@ -24,8 +24,6 @@
     "btix": "./bin/index.js"
   },
   "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.1",
     "yargs": "^17.5.1"
   }
 }
