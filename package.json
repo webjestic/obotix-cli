@@ -1,13 +1,17 @@
 {
   "name": "obotix-cli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "obotix CLI",
-  "main": "bin/index.js",
+  "main": "./bin/obotix-cli.js",
+  "type": "commonjs",
   "bin": {
-    "obotix-cli": "bin/index.js"
+    "obotix-cli": "./bin/obotix-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "files": [
     "bin",
@@ -19,12 +23,9 @@
     "type": "git",
     "url": "git+https://github.com/webjestic/btix.git"
   },
-  "keywords": [
-    "obotix",
-    "cli"
-  ],
-  "author": "Michael N",
-  "license": "ISC",
+  "keywords": [],
+  "author": "Michael N (webjestic)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webjestic/btix/issues"
   },
