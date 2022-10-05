@@ -1,0 +1,5 @@
+{
+    "backend" : {
+        "repo": "https://github.com/webjestic/obotix-mservice-scaffold.git"
+    }
+}
