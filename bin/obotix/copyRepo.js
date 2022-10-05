@@ -7,7 +7,7 @@ const shell = require('shelljs')
 
 exports.copy = function (argv) {
 
-    const serviceRepo = `${argv.service}.repo`
+    const serviceRepo = "https://github.com/webjestic/obotix-mservice-scaffold.git"
 
     const localDir = process.cwd()
     const targetDir = localDir + "/" + argv.folder
@@ -16,7 +16,7 @@ exports.copy = function (argv) {
     // clone git repo into desired project name
     try {
         console.log(`Creating ${argv.folder}...`)
-        let cmd = `git clone ${conf.get(serviceRepo)} ${argv.folder}`
+        let cmd = `git clone ${serviceRepo} ${argv.folder}`
         let result = shell.exec(cmd)
         if (result.code === 0) console.log(`${argv.folder} successfully created.`)
         fs.rmSync(oldGitDir, { recursive: true, force: true })
