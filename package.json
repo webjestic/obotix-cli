@@ -1,10 +1,10 @@
 {
   "name": "obotix-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "obotix CLI",
   "main": "bin/index.js",
   "bin": {
-    "btix": "./bin/index.js"
+    "btix": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +30,6 @@
   "homepage": "https://github.com/webjestic/btix#readme",
   "dependencies": {
     "config": "^3.3.8",
-    "debug": "^4.3.4",
     "shelljs": "^0.8.5",
     "yargs": "^17.5.1"
   }
