@@ -1,16 +1,17 @@
 {
   "name": "obotix-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "obotix CLI",
   "main": "bin/index.js",
   "bin": {
-    "btix": "bin/index.js"
+    "obotix-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "bin",
+    "config",
     "LICENSE",
     "README.md"
   ],
