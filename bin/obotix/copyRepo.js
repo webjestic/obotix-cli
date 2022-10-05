@@ -1,13 +1,12 @@
 
 
-const conf = require('config')
 const fs = require('fs')
 const shell = require('shelljs')
 
 
 exports.copy = function (argv) {
 
-    const serviceRepo = "https://github.com/webjestic/obotix-mservice-scaffold.git"
+    const serviceRepo = argv.gitrepo
 
     const localDir = process.cwd()
     const targetDir = localDir + "/" + argv.folder

@@ -1,6 +1,6 @@
 {
   "name": "obotix-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "obotix CLI",
   "main": "./bin/obotix-cli.js",
   "type": "commonjs",
