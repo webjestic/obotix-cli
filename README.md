@@ -25,10 +25,13 @@ git init -b main
 # NOTE: git version < 2.28.0
 git init && git symbolic-ref HEAD refs/heads/main 
 
-git add . && git commit -m "initial commit from CLI scaffold"
+
 git remote add origin <REMOTE_URL>
+git pull origin main
+git add . && git commit -m "initial commit from CLI scaffold"
 git remote -v
 git push -u origin main
+git pull
 ```
 
 Location of globals
